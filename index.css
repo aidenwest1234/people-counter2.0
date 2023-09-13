@@ -1,0 +1,89 @@
+body {
+  height: auto;
+  width: auto;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  background: rgb(30, 92, 102);
+}
+
+h1, h2, p {
+  color: white;
+}
+
+h1 {
+  margin: 100px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 50px; 
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+#button_counter {
+  font-size: 17px;
+  font-weight: bold;
+  color: white;
+  border: none;
+  background: rgb(53, 180, 53);
+  padding: 15px 55px 18px 55px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+}
+
+#button_counter:hover {
+  background:rgb(43, 103, 40);
+}
+
+#button_counter:active {
+  background: rgb(10, 165, 10);
+}
+
+#button_subtract {
+  font-size: 17px;
+  font-weight: bold;
+  color: white;
+  border: none;
+  background: rgb(180, 53, 53);
+  padding: 15px 55px 18px 55px;
+  border-radius: 8px;
+}
+
+#button_subtract:hover {
+  background:rgb(103, 40, 40);
+}
+
+#button_subtract:active {
+  background: rgb(165, 10, 10);
+}
+
+#button_save {
+  font-size: 17px;
+  font-weight: bold;
+  color: white;
+  border: none;
+  background: rgb(49, 49, 205);
+  padding: 15px 55px 18px 55px;
+  border-radius: 8px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+#button_save:hover {
+  background:rgb(13, 4, 140);
+}
+
+#button_save:active {
+  background: rgb(95, 72, 242);
+}
+
+.buttons {
+  width: 50%;
+}
+
+#save-el {
+  font-size: 20px;
+  text-decoration: underline;
+}
